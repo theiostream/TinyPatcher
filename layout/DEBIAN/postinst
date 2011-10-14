@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Make patcher.sh executable
+echo Setting Permissions...
+chmod 777 /usr/bin/patcher.sh
+
+# Create directories
+echo "Creating files..."
+mkdir -p /var/mobile/Library/TinyPatcher/
+mkdir -p /var/mobile/Library/TinyPatcher/Plists
+mkdir -p /var/mobile/Library/TinyPatcher/UserPlists
+
+echo Done!

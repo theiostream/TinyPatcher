@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Remove all files that might have been left behind
+rm -r /var/mobile/Library/TinyPatcher/
+
+echo Successfully removed TinyPatcher. Hope it pleased you during its stay at your device!
