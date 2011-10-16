@@ -1,3 +1,9 @@
+// TinyPatcher.mm
+// File Patcher; the core of TinyPatcher's patching
+
+// TODO: - Add a nice dictionary handling implementation kinda like the array thing
+//       - Make alternatives for stuff like "FullyFeatured" or "MT Gestures Theme" with TinyPatcher, so your system plists can stay safe for other extensions.
+
 void printUsage(void) {
 	printf("[TinyPatcher Usage Error] Use TinyPatcher with patcher.sh script OR head to <http://matoe.co.cc/patcher.txt>\n");
 }
